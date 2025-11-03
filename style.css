@@ -3,12 +3,12 @@
  * ============================================== */
 @font-face {
   font-family: 'Distant Galaxy';
-  src: url("fonts/SF\ Distant\ Galaxy.ttf") format("truetype");
+  src: url("fonts/SF%20Distant%20Galaxy.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Distant Galaxy Outline';
-  src: url("fonts/SF\ Distant\ Galaxy\ Outline.ttf") format("truetype");
+  src: url("fonts/SF%20Distant%20Galaxy%20Outline.ttf") format("truetype");
 }
 
 /* ==============================================
