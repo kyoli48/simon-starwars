@@ -10,12 +10,39 @@
 </head>
 
 <body>
-  <h1>Hello world</h1>
+  <h1>Light and Sound Game</h1>
+  <p>Welcome to the game! Repeat the sequence of sounds to win.</p>
+  
+  <div class="difficulty-section">
+    <h2>Choose Your Path</h2>
+    <div class="select-container">
+      <select id="difficultySelect">
+        <option value="normal">Stormtrooper</option>
+        <option value="random">Sith</option>
+      </select>
+      <span class="select-arrow">▼</span>
+    </div>
+  </div>
+  
+  <button id="startBtn" onclick="startGame()">Start</button>
+  <button class="hidden" id="stopBtn" onclick="stopGame()">Stop</button>
 
+  <div id="progressContainer">
+    <div id="progressBar">
+      <div id="progressFill"></div>
+    </div>
+    <div id="progressText"></div>
+  </div>
+
+  <div id="gameButtonArea">
+    <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"></button>
+    <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)"></button>
+    <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)"></button>
+    <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)"></button>
+  </div>
 
   <!-- Links our JavaScript code to our HTML code -->
   <script src="script.js"></script>
-</script>
 </body>
 
 </html>

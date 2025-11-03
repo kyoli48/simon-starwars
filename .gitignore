@@ -1,0 +1,31 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Replit specific
+.replit
+.replit.backup
+.config/
+
+# Build outputs (if any)
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.bak
+
