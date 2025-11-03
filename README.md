@@ -62,11 +62,8 @@ Love to enhance this project by applying skills from my previous web development
 - Add keyboard controls for accessibility
 - Create a tutorial mode for new players
 
-While ambitious, these features would help me learn more about full-stack development while making the game more engaging and social. I'm particularly excited about the backend integration, as it would give me experience with database design and API development beyond the simple endpoints I've worked with before.
 
 ## Video Walkthrough 
-
-Add your screen recordings for specified implemented features here:
 [losing screen recording](https://www.loom.com/share/4bf93d3341504668994dba3fe576be7c?sid=1c67d9bf-78bb-4958-a41d-8ed88e1e2a78)\
 \
 Bonus features:
